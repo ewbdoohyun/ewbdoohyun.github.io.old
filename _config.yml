@@ -12,7 +12,7 @@ exclude:
 title: Doohyun Kim
 subtitle: ""
 email: ewb.doohyun@gmail.com
-name: Ben Centra
+name: Danny Kim
 description: >
  Developer.
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -70,12 +70,6 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: true
 
   - name: Facebook
     icon: facebook
@@ -86,15 +80,15 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
+    username: ewbdoohyun
     url: https://github.com/ewbdoohyun
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: Doohyun kim
+    url: https://www.linkedin.com/in/%EB%91%90%ED%98%84-%EA%B9%80-217609a7/
     desc: Connect with me on LinkedIn
     share: true
 
