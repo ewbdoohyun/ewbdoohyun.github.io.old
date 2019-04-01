@@ -15,8 +15,7 @@
       <ul id="js-navigation-menu" class="navigation-menu show">
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for page in sorted_pages %}
-          {{ page.order }}
-        {% if page.title and page.main_nav != false %}          
+        {% if page.title and page.order and page.main_nav != false %}          
           <li class="nav-link"><a href="{{ page.url | prepend: page.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
