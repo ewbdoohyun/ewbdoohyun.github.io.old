@@ -5,8 +5,9 @@ permalink: /Algorithm/
 order: 4
 ---
 {% for category in site.categories %}
-    {% capture cat %}{{ category | first }}{% endcapture %}
-    {% if cat == "Algorithm" %}
+    
+  {% capture cat %}{{ category | first }}{% endcapture %}
+  {% if cat == "Algorithm" %}
     <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
     {% for desc in site.descriptions %}
       {% if desc.cat == cat %}
@@ -24,6 +25,7 @@ order: 4
     {% endfor %}
     </ul>
   {% endif %}
-    {% if forloop.last == false %}<hr>{% endif %}
+  
+    <!-- {% if forloop.last == false %}<hr>{% endif %} -->
 {% endfor %}
 <br>
