@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://ewbdoohyun.github.io/sitemap.xml
