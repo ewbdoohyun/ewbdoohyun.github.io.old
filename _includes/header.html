@@ -16,7 +16,7 @@
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for page in sorted_pages %}
           {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">1 {{ page.title }}</a>
           {% endif %}
         {% endfor %}
         <!-- <li class="nav-link"><a href="Testing"></a> -->
