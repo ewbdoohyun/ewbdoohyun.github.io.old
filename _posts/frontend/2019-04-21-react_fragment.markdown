@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "React Fragment와 div"
-date:   2019-04-21 22:00:00
+date:   2019-04-21 21:00:00
 author: Danny Kim
-categories: ETC
+categories: Frontend
 tags:	react fragment div
 ---
 
